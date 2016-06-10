@@ -1,0 +1,128 @@
+{
+	"current_page": "index",
+	"menu": ["A propos", "Expérience/Formation", "Projets", "Blog", "Contact"],
+	"name": "Julie Planque",
+	"poste" :"Developpeuse Front-End",
+	"mail": "julie.planque@epitech.eu",
+	"slogans": [
+		{ 
+			"title" : "Responsive",
+			"slogans" : "J'adapte tout mes projets de façon à ce qu'ils soient utilisable sur desktop, mobile ainsi que tablette"
+		},
+		{
+			"title" : "Curieuse & créative", 
+			"slogans" : "Je me tiens toujours à la page des nouvelles truc et les mets en oeuvre de façon créative"
+		},
+		{
+			"title" : "Respecte les normes", 
+			"slogans" : "Code aux normes W3C, CodeSniffer et JSlint"
+		}
+	],
+	"content_slogans": ["blabla", "blablza", "balblal"],
+	"subtitle": [
+		{
+			"title" : "Présentation",
+			"slogans" : "un peu plus d'information sur moi",
+			"content" : "Julie, 24 ans, étudiante au SAMSUNG CAMPUS (en partenariat avec l’EPITECH) et en alternance chez Sublime Skinz. Ayant un père ingénieur, j'ai été plongé dans le monde de l'informatique toute petite. Je suis une passionnée et je m’intéresse à toutes les avancées technologiques, ainsi qu'à l'apprentissage de nouveaux langages informatique. Anciennement Aide-Soignante, car j'ai toujours aimé apporter mon aide aux personnes dans le besoin, j'ai décidé de me reconvertir. En effet, il y a beaucoup plus de capacité d'évolution dans ce domaine, il y a toujours de nouvelles choses à apprendre et c'est ce qui me plait dans ce métier."
+		},
+		{
+			"title":"Compétences",
+			"title_one" :"Langages & Bibliothèques", 
+			"title_two" :"Outils",
+			"title_three" :"Notions", 
+			"slogans" : "blzlbozl",
+			"content" : ""
+		},
+		{
+		 	"title" :"Formation/Expérience",
+			"experience_name_one" : "Developpeuse Front-End à Sublime Skinz",
+			"experience_name_two" : "Samsung Campus",
+			"slogans" : "blzlbozl",
+			"content_sublime" : "Formation d'un an en tant que Developpeuse Front-End dans une grand régie publicitaire active en Europe. Utilisation principal du HTML/CSS, Javascript, JQuery, AngularJS.",
+			"content_samsung" : "Formation Web & Apps Coding d'une durée de 2 ans, dont 1 an en alternance mise en œuvre par ZUP de CO et EPITECH."
+		},
+		{
+			"title" :"Projets",
+			"buttons" : ["ALL", "WEB", "MOBILE"],
+			"slogans" : "blzlbozl",
+			"content" : ""
+	    },
+	    {
+	    	"title" : "Partage Article",
+	    	"article_name": ["Really Interesting Post","Really Interesting Post","Really Interesting Post"],
+	    	"date" : ["31 octobre 2016"],
+	    	"slogans" : "blzlbozl",
+	    	"content" : ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est.", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est.","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est."]
+	     },
+	     {
+	     	"title" :"Contact",
+	     	"slogans" : "blzlbozl"     	
+	     }
+	],
+	"langages":[
+		{ 
+			"title" :"XHTML/HTML/CSS",
+			"color" : "#F79C41"
+		},
+		{	
+			"title" : "Javascript",
+			"color" : "#EFC548"
+		},
+		{
+			"title" : "JQuery",
+			"color" : "#808CD8"
+		},
+		{
+			"title" : "AngularJS",
+			"color" : "#E46B6B"
+		},
+		{
+			"title" : "PHP",
+			"color" : "#67AAE0"
+		},
+		{ 
+			"title" : "MySQL",
+			"color" : "#50C5D4"
+		},
+		{
+			"title" : "Shell",
+			"color" : "#59B2F9"
+		},
+		{	"title" : "Materialize",
+			"color" : "#F7568D"
+		},
+		{
+			"title" :"Bootstrap",
+			"color" : "#8C6FBD"
+		},
+		{
+			"title" : "Material Design",
+			"color" : "#A45DB1"
+		}	
+	],
+	"notions":[
+		{
+			"title": "AdminSys",
+			"color" : "#928D8D"
+		},
+		{
+			"title" :"Ruby",
+			"color" : "#E46B6B"
+		}	
+	],
+	"outils":[
+		{
+			"title" :"Git",
+			"color" : "#F79C41"
+		},
+		{
+			"title" : "phpMyAdmin",
+			"color" : "#EFC548"
+		}
+	],
+	"read_info": "read",
+	"footer": {
+		"mentions": "© 2016 Julie Planque"
+	}
+	
+}
