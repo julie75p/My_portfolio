@@ -59,6 +59,8 @@
 	     	"slogans" : "blzlbozl"     	
 	     }
 	],
+	"title_card":["My Diary", "My TodoList", "My Maps"],
+	"lien_card":"Visiter",
 	"langages":[
 		{ 
 			"title" :"XHTML/HTML/CSS",
