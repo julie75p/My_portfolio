@@ -107,10 +107,12 @@ if (isset($_POST["name"]) AND !empty($_POST["email"]) AND !empty($_POST["message
 			<div class="tabbable">
 				<div class="tab-content label-primary">
 					<div class="tab-pane active" id="all">
-							<div class="col l5">
-								<img class="julie" src="img/julie.png" alt="">
+							<div class="col l5 s12">
+								<div class="contentImgProfil">
+									<!-- <img class="julie" src="img/julie.png" alt=""> -->
+								</div>
 							</div>
-							<div class="col l7">
+							<div class="col l7 s12">
 								<h1>A propos</h1>
 								<hr>
 								<p data-ng-bind="main_content.subtitle[0].content"></p>
@@ -190,43 +192,46 @@ if (isset($_POST["name"]) AND !empty($_POST["email"]) AND !empty($_POST["message
 			</ul>
 			<div class="col s12">
 
-				<div class="card col s3 offset-l1">
+				<div class="card col s12 l3 offset-l1">
 					<div class="card-image waves-effect waves-block waves-light">
 						<img class="activator " class="" src="img/my_diary.png">
 					</div>
 					<div class="card-content">
 						<span class="card-title activator grey-text text-darken-4">My Diary<i class="material-icons right">more_vert</i></span>
-						<p><a href="#" data-ng-bind="main_content.lien_card"></a></p>
+						<p><a href="My_Diary" data-ng-bind="main_content.lien_card"></a></p>
 					</div>
 					<div class="card-reveal">
 						<span class="card-title grey-text text-darken-4">My Diary<i class="material-icons right">close</i></span>
-						<p>Here is some more information about this product that is only revealed once clicked on.</p>
+						<p>Technologies: HTML/CSS, JS, PHP.</p>
+						<p>Responsive : Non </p>
 					</div>
 				</div>
-				<div class="card col s3">
+				<div class="card col s12 l3 ">
 					<div class="card-image waves-effect waves-block waves-light">
 						<img class="activator" src="img/my_todolist.png">
 					</div>
 					<div class="card-content">
 						<span class="card-title activator grey-text text-darken-4">My TodoList<i class="material-icons right">more_vert</i></span>
-						<p><a href="#" data-ng-bind="main_content.lien_card"></a></p>
+						<p><a href="My_ToDoList" data-ng-bind="main_content.lien_card"></a></p>
 					</div>
 					<div class="card-reveal">
 						<span class="card-title grey-text text-darken-4">My TodoList<i class="material-icons right">close</i></span>
-						<p>Here is some more information about this product that is only revealed once clicked on.</p>
+						<p>Technologies: JS vanilla, Materialize.</p>
+						<p>Responsive : Oui </p>
 					</div>
 				</div>
-				<div class="card col s3">
+				<div class="card col s12 l3 ">
 					<div class="card-image waves-effect waves-block waves-light">
 						<img class="activator" src="img/my_maps.png">
 					</div>
 					<div class="card-content">
 						<span class="card-title activator grey-text text-darken-4">My Maps<i class="material-icons right">more_vert</i></span>
-						<p><a href="#" data-ng-bind="main_content.lien_card"></a></p>
+						<p><a href="map" data-ng-bind="main_content.lien_card"></a></p>
 					</div>
 					<div class="card-reveal">
 						<span class="card-title grey-text text-darken-4">My Maps<i class="material-icons right">close</i></span>
-						<p>Here is some more information about this product that is only revealed once clicked on.</p>
+						<p>Technologies : API Google, Javascript, Bootstrap.</p>
+						<p>Responsive : Non </p>
 					</div>
 				</div>
 			</div>
@@ -275,9 +280,9 @@ if (isset($_POST["name"]) AND !empty($_POST["email"]) AND !empty($_POST["message
 <script src="js/jquery.easing-1.3.min.js"></script>
 <script src="bower_components/angular/angular.js"></script>
 <script src="indexCtrl.js"></script>
-<script src="js/default.js"></script>
 <!--Import jQuery before materialize.js-->
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script type="text/javascript" src="css/materialize/js/materialize.min.js"></script>
+<script src="js/default.js"></script>
 </body>
 </html>

@@ -63,15 +63,15 @@ nav{
 	font-style: normal;
 }
 .name{
-	color: #c2bedd !important;
+	color: #312778 !important;
 	font-family: 'Kaushan Script', cursive;
-	font-size: 25px;
+	font-size: 35px !important;
 	float: left;
 	text-transform: initial;
 	font-weight: 400;
-	letter-spacing: 5px;
-	margin-left: 15px;
 	margin-right: 13px;
+	letter-spacing: 0px;
+    margin-left: 40px;
 
 }
 .name:hover{
@@ -211,7 +211,7 @@ nav{
 	#blogSection .span12{ margin:0;margin-bottom: 36px;}
 
 
-	#meetourteamSection{ padding:10px 0 ; background:#fff; padding-top: 0px; }
+	#meetourteamSection{ padding:10px 0 ; background:#fff; padding-top: 0px;padding-bottom: 50px;}
 
 	#meetourteamSection .thumbnails  p {
 		color: #909090;
@@ -947,4 +947,13 @@ nav{
 						}
 						.row .col.offset-l1 {
 							margin-left: 12.333333% !important;
+						}
+						.contentImgProfil{
+							width: 258px;
+							height: 341px;
+							background-image: url(../img/julie.jpg);
+							background-size: 240px;
+							background-repeat: no-repeat;
+							border: 9px solid rgba(194, 190, 221, 0.66);
+							margin-left: 125px;
 						}

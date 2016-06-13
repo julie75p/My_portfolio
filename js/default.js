@@ -1,4 +1,4 @@
-
+$(".button-collapse").sideNav();
     
     // Scroll page with easing effect
     $('.navbar ul li a').bind('click', function(e) {

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+   <head>
+      <title>My Maps</title>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <link href="style.css" rel="stylesheet">
+      <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+      <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+   </head>
+   <body onload="initialize()">
+      <header>
+         
+         <Div  class = "jumbotron" >
+            <h1> Bienvenue sur My Maps </h1>
+            <p>Recherche d'adresses, de lieux, calcul d' itinéraires pour préparer vos déplacements partout en France.</p>
+            <p> <a  class = "btn btn-primaire btn-lg"  href = "#"  role = "button" > En savoir plus </a> </p>
+         </div>
+      </header>
+      <div class="form-horizontal col-s12">
+         <h2> Mon itineraire : </h2>
+
+         <p>Mode de transport :</p>
+         <select id="mode" onchange="javascript:calcule()">
+            <option value="DRIVING">Voiture</option>
+            <option value="WALKING">Marche</option>
+            <option value="BICYCLING">Vélo</option>
+            <option value="TRANSIT">Transit</option>
+         </select>
+         <div class="form-group has-success has-feedback">
+            <label class="control-label col-sm-3" for="inputSuccess3">Point de départ :</label>
+            <div class="col-sm-9">
+               <input type="text" class="form-control" name="depart" id="inputSuccess3" aria-describedby="inputSuccess3Status">
+               <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+               <span id="inputSuccess3Status" class="sr-only">(success)</span>
+            </div>
+         </div>
+         <div class="form-group has-success has-feedback">
+            <label class="control-label col-sm-3" for="inputGroupSuccess2">Point d'arrivé :</label>
+            <div class="col-sm-9">
+               <div class="input-group">
+                  <span class="input-group-addon"></span>
+                  <input type="text" class="form-control" name="arrive" id="inputGroupSuccess2" aria-describedby="inputGroupSuccess2Status">
+               </div>
+               <input type="submit" id="confirm" name="nom" value="Calculer intinaire" onclick="javascript:calcule()">
+               <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+               <span id="inputGroupSuccess2Status" class="sr-only">(success)</span>
+               <button onclick="afficher()">Afficher Storage</button>
+               <div id="panel"></div>
+            </div>
+         </div>
+      </div>
+      <div id="fullscreen">
+         <a onclick="javascript:fullscreen()">fullscreen ici</a>
+      </div>
+      <div id="map" style="width:800px; height:600px"></div>
+      <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&amp;language=fr"></script>
+      <script type="text/javascript" src="script.js"></script>
+   </body>
+</html>
