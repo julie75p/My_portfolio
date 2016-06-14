@@ -25,7 +25,7 @@
     <link href='https://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'>
     <!-- <link rel="stylesheet" href="http://cdn.embed.ly/jquery.preview-0.3.2.css" /> -->
 
-    <link id="callCss" rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8" />
 
 </head>
 
@@ -37,33 +37,33 @@
                 <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down nav mynav">
                     <li>
-                        <a href="#ourServices" data-ng-bind="main_content.menu[0]"> </a>
+                        <a href="#presentation" data-ng-bind="main_content.menu[0]"> </a>
                     </li>
                     <li>
-                        <a href="#portfolioSection" data-ng-bind="main_content.menu[1]"></a>
+                        <a href="#competences" data-ng-bind="main_content.menu[1]"></a>
                     </li>
                     <li>
-                        <a href="#meetourteamSection" data-ng-bind="main_content.menu[2]"></a>
+                        <a href="#experiences" data-ng-bind="main_content.menu[2]"></a>
                     </li>
                     <li>
-                        <a href="#recentpostSection" data-ng-bind="main_content.menu[3]"></a>
+                        <a href="#projet" data-ng-bind="main_content.menu[3]"></a>
                     </li>
                     <li>
-                        <a href="#contactSection" data-ng-bind="main_content.menu[4]"></a>
+                        <a href="#test" data-ng-bind="main_content.menu[4]"></a>
                     </li>
                 </ul>
                 <ul class="side-nav" id="mobile-demo">
                     <li>
-                        <a href="#ourServices" data-ng-bind="main_content.menu[0]"> </a>
+                        <a href="#presentation" data-ng-bind="main_content.menu[0]"> </a>
                     </li>
                     <li>
-                        <a href="#portfolioSection" data-ng-bind="main_content.menu[1]"></a>
+                        <a href="#competences" data-ng-bind="main_content.menu[1]"></a>
                     </li>
                     <li>
-                        <a href="#meetourteamSection" data-ng-bind="main_content.menu[2]"></a>
+                        <a href="#experiences" data-ng-bind="main_content.menu[2]"></a>
                     </li>
                     <li>
-                        <a href="#recentpostSection" data-ng-bind="main_content.menu[3]"></a>
+                        <a href="#projet" data-ng-bind="main_content.menu[3]"></a>
                     </li>
                     <li>
                         <a href="#contactSection" data-ng-bind="main_content.menu[4]"></a>
@@ -72,7 +72,7 @@
             </div>
         </nav>
       
-            <div id="carouselSection" class="cntr">
+            <div id="carouselSection" class="cntr section scrollspy">
                 <div id="myCarousel" class="carousel slide">
                     <div class="carousel-inner">
                         <div class="item active">
@@ -116,9 +116,9 @@
                 </div>
             </div>
             <div id="meetourteamSection">
-                <div class="title col s12">
+                <div class="title col s12 ">
                     <h2 data-ng-bind="main_content.subtitle[0].title"></h2>
-                    <p>______</p>
+                    <p id="presentation" class="section scrollspy">______</p>
                     <p data-ng-bind="main_content.subtitle[0].slogans"></p>
                 </div>
                 <div class="row">
@@ -142,14 +142,14 @@
                     </div>
                 </div>
             </div>
-            <div id="competenceSection" class="col s12">
-                <div class="title_deux col s12">
+            <div id="competenceSection" class="col s12 ">
+                <div  class="title_deux col s12 ">
                     <h2 data-ng-bind="main_content.subtitle[1].title"></h2>
-                    <p>______</p>
+                    <p id="competences" class="section scrollspy"  >______</p>
                     <p data-ng-bind="main_content.subtitle[1].slogans"></p>
                 </div>
                     
-                        <div class="col s12">
+                        <div class="col s12 section scrollspy">
                             <div class="inner">
                                 <h1 data-ng-bind="main_content.subtitle[1].title_one"></h1>
                                 <ul class="liste_competences col s12">
@@ -172,10 +172,10 @@
                     </div>
                 </div>
             </div>
-            <div id="blogSection" class="col s12"> 
+            <div id="blogSection" class="col s12 section scrollspy"> 
                 <div class="title_deux col s12">
                     <h2 data-ng-bind="main_content.subtitle[2].title"></h2>
-                    <p>______</p>
+                    <p id="experiences" class="section scrollspy">______</p>
                     <p data-ng-bind="main_content.subtitle[2].slogans"></p>
                 </div>
                 <div class="row">
@@ -204,21 +204,21 @@
                     </div>
                 </div>
             </div>
-            <div id="portfolioSection" class="col s12">
+            <div id="portfolioSection" class="col s12 section scrollspy">
                 <div class="col s12">
                     <h1 class="cntr" data-ng-bind="main_content.subtitle[3].title"></h1>
-                    <p data-ng-bind="main_content.subtitle[3].slogans"></p>
+                    <p id="projet" class="section scrollspy" data-ng-bind="main_content.subtitle[3].slogans"></p>
                 </div>
-                <ul class="nav nav-pills pics-ul">
+             <!--    <ul class="nav nav-pills pics-ul">
                     <li class="active"><a href="#all" data-toggle="tab">ALL</a>
                     </li>
                     <li><a href="#web" data-toggle="tab">WEB</a>
                     </li>
                     <li><a href="#mobile" data-toggle="tab">MOBILE</a>
                     </li>
-                </ul>
+                </ul> -->
               
-                    <div class="row">
+                    <div class="row" >
                         <div class="card col s12 l3 offset-l1 offset-s0">
                             <div class="card-image waves-effect waves-block waves-light">
                                 <img class="activator " class="" src="img/my_diary.png">
@@ -270,12 +270,12 @@
                     </div>
               
             </div>
-            <div id="contactSection">
+            <div id="contactSection" class="section scrollspy">
         
                     <h1 data-ng-bind="main_content.subtitle[5].title"></h1>
                 <div class="row contact-row">
                     <form id="form" class="topBefore col s12" method="post" action="index.php">
-                        <div class="row">
+                        <div id="test" class="row section scrollspy">
                             <div class="input-field col s12 l4 offset-l4">
                                 <input id="name"  type="text" name="name" placeholder="NAME">
                             </div>
@@ -321,17 +321,14 @@
     <!-- Wrapper end -->
 
 
-    <a href="#" class="go-top"><i class="small material-icons">arrow_upward
+    <a href="#carouselSection" class="go-top"><i class="small material-icons">arrow_upward
 </i></a>
 
 
-    <script src="js/jquery-1.9.1.min.js"></script>
-    <script src="js/jquery.scrollTo-1.4.3.1-min.js" type="text/javascript"></script>
-    <script src="js/jquery.easing-1.3.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="bower_components/angular/angular.js"></script>
     <script src="indexCtrl.js"></script>
     <!--Import jQuery before materialize.js-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="css/materialize/js/materialize.min.js"></script>
     <script src="js/default.js"></script>
 </body>

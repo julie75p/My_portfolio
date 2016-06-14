@@ -1,4 +1,5 @@
 $(".button-collapse").sideNav();
+ $('.scrollspy').scrollSpy();
     
     // Scroll page with easing effect
     $('.navbar ul li a').bind('click', function(e) {
@@ -35,21 +36,11 @@ $(".button-collapse").sideNav();
 	});
 	
 	// Scroll Page to Top when clicked on "go top" button
-	$(".brand, .go-top").click(function(event){
+	$(".go-top").click(function(event){
 		event.preventDefault();
 
 		$.scrollTo('#carouselSection', 1500, {
         	easing: 'easeOutCubic'
         });
 	});
-	
-
-
-$(function(){	
-
-	
-
-
-});
-
 
