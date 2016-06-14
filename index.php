@@ -10,7 +10,6 @@
     <title>Julie Planque Web Développeuse | julie.planque@epitech.eu</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta name="author" content="">
 
     <!--Import Google Icon Font-->
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -26,9 +25,7 @@
     <!-- <link rel="stylesheet" href="http://cdn.embed.ly/jquery.preview-0.3.2.css" /> -->
 
     <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8" />
-
 </head>
-
 <body ng-controller="indexCtrl">
     <div class="container">
         <nav>
@@ -49,7 +46,7 @@
                         <a href="#projet" data-ng-bind="main_content.menu[3]"></a>
                     </li>
                     <li>
-                        <a href="#test" data-ng-bind="main_content.menu[4]"></a>
+                        <a href="#contactSection" data-ng-bind="main_content.menu[4]"></a>
                     </li>
                 </ul>
                 <ul class="side-nav" id="mobile-demo">
@@ -71,7 +68,6 @@
                 </ul>
             </div>
         </nav>
-      
             <div id="carouselSection" class="cntr section scrollspy">
                 <div id="myCarousel" class="carousel slide">
                     <div class="carousel-inner">
@@ -275,7 +271,7 @@
                     <h1 data-ng-bind="main_content.subtitle[5].title"></h1>
                 <div class="row contact-row">
                     <form id="form" class="topBefore col s12" method="post" action="index.php">
-                        <div id="test" class="row section scrollspy">
+                        <div class="row">
                             <div class="input-field col s12 l4 offset-l4">
                                 <input id="name"  type="text" name="name" placeholder="NAME">
                             </div>
